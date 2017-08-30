@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="9bf805f1-9f63-434e-8d55-bf9bb5dc41b3" SharePointProductVersion="15.0">
+  <FeatureManifests>
+    <FeatureManifest Location="CloudBusinessApp1.SharePoint_Feature1\Feature.xml" />
+  </FeatureManifests>
+</Solution>

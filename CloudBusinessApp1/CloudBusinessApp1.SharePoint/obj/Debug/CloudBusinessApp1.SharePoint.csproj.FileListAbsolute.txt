@@ -1,0 +1,3 @@
+c:\users\jbooker\documents\visual studio 2015\Projects\CloudBusinessApp1\CloudBusinessApp1\CloudBusinessApp1.SharePoint\bin\Debug\CloudBusinessApp1.SharePoint.pdb
+c:\users\jbooker\documents\visual studio 2015\Projects\CloudBusinessApp1\CloudBusinessApp1\CloudBusinessApp1.SharePoint\obj\Debug\CloudBusinessApp1.SharePoint.dll
+c:\users\jbooker\documents\visual studio 2015\Projects\CloudBusinessApp1\CloudBusinessApp1\CloudBusinessApp1.SharePoint\obj\Debug\CloudBusinessApp1.SharePoint.pdb

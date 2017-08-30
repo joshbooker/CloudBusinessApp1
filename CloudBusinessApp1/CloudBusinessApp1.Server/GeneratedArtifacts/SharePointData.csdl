@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" Namespace="LightSwitchApplication" Alias="Self" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+  <EntityType Name="UserInformationList">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="OtherMail" Type="Edm.String" MaxLength="Max" />
+    <Property Name="Id" Type="Edm.Int32" Nullable="false" />
+    <Property Name="ContentType" Type="Edm.String" MaxLength="Max" />
+    <Property Name="ContentTypeID" Type="Edm.String" MaxLength="Max" />
+    <Property Name="Name" Type="Edm.String" MaxLength="Max" />
+    <Property Name="Account" Type="Edm.String" MaxLength="Max" />
+    <Property Name="WorkEmail" Type="Edm.String" MaxLength="Max" />
+    <Property Name="MobilePhone" Type="Edm.String" MaxLength="127" />
+    <Property Name="AboutMe" Type="Edm.String" MaxLength="Max" />
+    <Property Name="SIPAddress" Type="Edm.String" MaxLength="Max" />
+    <Property Name="IsSiteAdmin" Type="Edm.Boolean" />
+    <Property Name="Deleted" Type="Edm.Boolean" />
+    <Property Name="Hidden" Type="Edm.Boolean" />
+    <Property Name="Picture" Type="Edm.String" MaxLength="Max" />
+    <Property Name="Department" Type="Edm.String" MaxLength="Max" />
+    <Property Name="Title" Type="Edm.String" MaxLength="Max" />
+    <Property Name="FirstName" Type="Edm.String" MaxLength="Max" />
+    <Property Name="LastName" Type="Edm.String" MaxLength="Max" />
+    <Property Name="WorkPhone" Type="Edm.String" MaxLength="Max" />
+    <Property Name="UserName" Type="Edm.String" MaxLength="Max" />
+    <Property Name="WebSite" Type="Edm.String" MaxLength="Max" />
+    <Property Name="AskMeAbout" Type="Edm.String" MaxLength="Max" />
+    <Property Name="Office" Type="Edm.String" MaxLength="Max" />
+    <Property Name="PictureTimestamp" Type="Edm.String" MaxLength="Max" />
+    <Property Name="PicturePlaceholderState" Type="Edm.Int32" />
+    <Property Name="PictureExchangeSyncState" Type="Edm.Int32" />
+    <Property Name="Modified" Type="Edm.DateTime" />
+    <Property Name="Created" Type="Edm.DateTime" />
+    <Property Name="Owshiddenversion" Type="Edm.Int32" />
+    <Property Name="Version" Type="Edm.String" MaxLength="Max" />
+    <Property Name="Path" Type="Edm.String" MaxLength="Max" />
+    <Property Name="CreatedById" Type="Edm.Int32" />
+    <Property Name="ModifiedById" Type="Edm.Int32" />
+    <NavigationProperty Name="CreatedBy" Relationship="LightSwitchApplication.UserInformationListItem_CreatedBy" ToRole="CreatedBy" FromRole="UserInformationListItem" />
+    <NavigationProperty Name="ModifiedBy" Relationship="LightSwitchApplication.UserInformationListItem_ModifiedBy" ToRole="ModifiedBy" FromRole="UserInformationListItem" />
+  </EntityType>
+  <Association Name="UserInformationListItem_CreatedBy">
+    <End Role="CreatedBy" Type="LightSwitchApplication.UserInformationList" Multiplicity="0..1" />
+    <End Role="UserInformationListItem" Type="LightSwitchApplication.UserInformationList" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CreatedBy">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="UserInformationListItem">
+        <PropertyRef Name="CreatedById" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="UserInformationListItem_ModifiedBy">
+    <End Role="ModifiedBy" Type="LightSwitchApplication.UserInformationList" Multiplicity="0..1" />
+    <End Role="UserInformationListItem" Type="LightSwitchApplication.UserInformationList" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ModifiedBy">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="UserInformationListItem">
+        <PropertyRef Name="ModifiedById" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="SharePointData" m:IsDefaultEntityContainer="true">
+    <EntitySet Name="UserInformationLists" EntityType="LightSwitchApplication.UserInformationList" />
+    <AssociationSet Name="UserInformationListItem_CreatedBy" Association="LightSwitchApplication.UserInformationListItem_CreatedBy">
+      <End Role="CreatedBy" EntitySet="UserInformationLists" />
+      <End Role="UserInformationListItem" EntitySet="UserInformationLists" />
+    </AssociationSet>
+    <AssociationSet Name="UserInformationListItem_ModifiedBy" Association="LightSwitchApplication.UserInformationListItem_ModifiedBy">
+      <End Role="ModifiedBy" EntitySet="UserInformationLists" />
+      <End Role="UserInformationListItem" EntitySet="UserInformationLists" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

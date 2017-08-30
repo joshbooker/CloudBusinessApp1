@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping CdmEntityContainer="SharePointData" StorageEntityContainer="SharePointDataStore">
+    <EntitySetMapping Name="UserInformationLists">
+      <EntityTypeMapping TypeName="IsTypeOf(LightSwitchApplication.UserInformationList)">
+        <MappingFragment StoreEntitySet="UserInformationList">
+          <ScalarProperty Name="OtherMail" ColumnName="OtherMail" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ContentType" ColumnName="ContentType" />
+          <ScalarProperty Name="ContentTypeID" ColumnName="ContentTypeID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Account" ColumnName="Account" />
+          <ScalarProperty Name="WorkEmail" ColumnName="WorkEmail" />
+          <ScalarProperty Name="MobilePhone" ColumnName="MobilePhone" />
+          <ScalarProperty Name="AboutMe" ColumnName="AboutMe" />
+          <ScalarProperty Name="SIPAddress" ColumnName="SIPAddress" />
+          <ScalarProperty Name="IsSiteAdmin" ColumnName="IsSiteAdmin" />
+          <ScalarProperty Name="Deleted" ColumnName="Deleted" />
+          <ScalarProperty Name="Hidden" ColumnName="Hidden" />
+          <ScalarProperty Name="Picture" ColumnName="Picture" />
+          <ScalarProperty Name="Department" ColumnName="Department" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="WorkPhone" ColumnName="WorkPhone" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="WebSite" ColumnName="WebSite" />
+          <ScalarProperty Name="AskMeAbout" ColumnName="AskMeAbout" />
+          <ScalarProperty Name="Office" ColumnName="Office" />
+          <ScalarProperty Name="PictureTimestamp" ColumnName="PictureTimestamp" />
+          <ScalarProperty Name="PicturePlaceholderState" ColumnName="PicturePlaceholderState" />
+          <ScalarProperty Name="PictureExchangeSyncState" ColumnName="PictureExchangeSyncState" />
+          <ScalarProperty Name="Modified" ColumnName="Modified" />
+          <ScalarProperty Name="Created" ColumnName="Created" />
+          <ScalarProperty Name="Owshiddenversion" ColumnName="Owshiddenversion" />
+          <ScalarProperty Name="Version" ColumnName="Version" />
+          <ScalarProperty Name="Path" ColumnName="Path" />
+          <ScalarProperty Name="CreatedById" ColumnName="CreatedById" />
+          <ScalarProperty Name="ModifiedById" ColumnName="ModifiedById" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

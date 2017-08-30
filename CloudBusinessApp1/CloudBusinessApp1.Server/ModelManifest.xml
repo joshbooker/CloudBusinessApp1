@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<ModelDocumentManifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Documents>
+    <Document FullPath="C:\Users\jbooker\Documents\Visual Studio 2015\Projects\CloudBusinessApp1\CloudBusinessApp1\CloudBusinessApp1.Server\DataSources\ApplicationData\Sales.lsml" Checksum="50A996E67480910C789C71FD473F3C63D6A71B42770153E7DB374E8E4A1F68AA" />
+    <Document FullPath="C:\Users\jbooker\Documents\Visual Studio 2015\Projects\CloudBusinessApp1\CloudBusinessApp1\CloudBusinessApp1.Server\Properties\DataSources\ApplicationData.lsml" Checksum="E6FEEAC3B4A850AAC5F0029259A0B9F8C1BD45F2950D17BD8D6664B9422E6AD6" />
+    <Document FullPath="C:\Users\jbooker\Documents\Visual Studio 2015\Projects\CloudBusinessApp1\CloudBusinessApp1\CloudBusinessApp1.Server\Properties\Service.lsml" Checksum="4A68981089CA0BF77387D16B282DA4211225E921C18271AE4AE278AA29BA30CA" />
+    <Document FullPath="C:\Users\jbooker\Documents\Visual Studio 2015\Projects\CloudBusinessApp1\CloudBusinessApp1\CloudBusinessApp1.Server\DataSources\ApplicationData\Users.lsml" Checksum="0138FF2FF675C65632DEC972E5D119ABC325FCE9746F16D2EBF01647A4E4143E" />
+    <Document FullPath="C:\Users\jbooker\Documents\Visual Studio 2015\Projects\CloudBusinessApp1\CloudBusinessApp1\CloudBusinessApp1.Server\DataSources\ApplicationData\Permissions.lsml" Checksum="2953F29958877DF83D7C12C857FC414103AC4C2B9AA49CD979F0411D717920DF" />
+    <Document FullPath="C:\Users\jbooker\Documents\Visual Studio 2015\Projects\CloudBusinessApp1\CloudBusinessApp1\CloudBusinessApp1.Server\DataSources\ApplicationData\UserPermissions.lsml" Checksum="4A4DED2E69046463527A885B78627E0BE48BE5A56A8B7551B82BB3F7A0349BCE" />
+    <Document FullPath="C:\Users\jbooker\Documents\Visual Studio 2015\Projects\CloudBusinessApp1\CloudBusinessApp1\CloudBusinessApp1.Server\DataSources\SharePointData\UserInformationLists.lsml" Checksum="B875632403419183C803BB9C554D5A55737C7B58E31D01631F406E4A88D5739E" />
+    <Document FullPath="C:\Users\jbooker\Documents\Visual Studio 2015\Projects\CloudBusinessApp1\CloudBusinessApp1\CloudBusinessApp1.Server\Properties\DataSources\SharePointData.lsml" Checksum="EC26449715FCFE77310F06A67333E1085245510C70ED67AAF9C03AB81D750E03" />
+    <Document FullPath="C:\Users\jbooker\Documents\Visual Studio 2015\Projects\CloudBusinessApp1\CloudBusinessApp1\CloudBusinessApp1.Server\DataSources\ApplicationData\MyPermissions.lsml" Checksum="55D4DBECE3CE2BF243BDB6DF94F668E4890319DC264EFECF3E34721116CA7ECF" />
+  </Documents>
+</ModelDocumentManifest>
